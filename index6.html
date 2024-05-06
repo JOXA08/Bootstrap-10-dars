@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="main2.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-3">
+        <div class="col-md-12 my-3">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center dropdown-toggle" data-toggle="dropdown">
+                    Account settings
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row my-3">
+        <div class="col-md-6 my-3 ">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center dropdown-toggle" data-toggle="collapse" data-target="#myBox">
+                    Personal information
+                </li>
+                <div class="collapse show" id="myBox">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="#">
+                                <div class="form-group">
+                                    <label for="name">Account name*</label>
+                                    <input type="text" id="name" class="form-control col-md-9" placeholder="Account name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="user">User name*</label>
+                                    <input type="text" id="user" class="form-control col-md-9" placeholder="User name">
+                                </div>
+                                <h6 class="harf">Sizning tizimdagi accountingiz https://pinup.uz/account/accountName</h6>
+                                <div class="form-group">
+                                    <label for="Email">Email adress*</label>
+                                    <input type="text" id="Email" class="form-control col-md-9" placeholder="Email adress">
+                                </div>
+                                <div class="input-group">
+                                    <div class="form-group">
+                                        <label for="Password">Your Password</label>
+                                        <input type="Password" id="Password" class="form-control col-md-9" placeholder="Your Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="confirm">Confirm password*</label>
+                                        <input type="text" id="confirm" class="form-control col-md-9" placeholder="Confirm password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="address">Site address</label>
+                                    <input type="text" id="address" class="form-control col-md-9" placeholder="Your web site address">
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        <div class="col-md-6 my-3">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center dropdown-toggle" data-toggle="collapse" data-target="#myBox1">
+                    Profile image & cover
+                </li>
+                <div class="collapse show" id="myBox1">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="#" class="d-flex">
+                                <img src="rasm/profile.png" alt="" width="80" height="80">
+                                <p class="ml-3 my-2">Profile image <br>
+                                    JPG,GIF or PNG 100x100px
+                                </p>
+                                <button type="button" class="btn btn-success tana my-4 ml-5" style="width: 130px; height: 40px">Upload image</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        </div>
+    <div class="row my-3">
+        <div class="col-md-6">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center dropdown-toggle" data-toggle="collapse" data-target="#myBox4">
+                    Personal information
+                </li>
+                <div class="collapse show" id="myBox4">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="#">
+                                <div class="form-group">
+                                    <label for="account">Fist name*</label>
+                                    <label for="user1" class="label" style="margin-left: 200px">Last name*</label>
+                                    <br>
+                                    <input type="text" id="account" placeholder="First name" style="width: 220px;height: 35px">
+                                    <input type="text" id="user1" class="input ml-5" placeholder="Last name" style="width: 220px;height: 35px">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email1">Company name*</label>
+                                    <input type="text" id="Email1" class="form-control" placeholder="Company name">
+                                </div>
+                                    <div class="form-group">
+                                        <label for="Password1">Email adres*</label>
+                                        <input type="email" id="Password1" class="form-control" placeholder="Email adres">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="region">Country*</label>
+                                        <select name="region" id="region" class="form-control">
+                                            <option value="1">Toshkent</option>
+                                            <option value="6" selected>Select one</option>
+                                            <option value="2">Buxoro</option>
+                                            <option value="3">Xorazm</option>
+                                            <option value="4">Toshkent_city</option>
+                                            <option value="5">Toshkent</option>
+                                        </select>
+                                    </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center dropdown-toggle" data-toggle="collapse" data-target="#myBox3">
+                    Social profile
+                </li>
+                <div class="collapse show" id="myBox3">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="#" method="get">
+                                <div class="form-group d-flex">
+                                    <label for="login" class="mr-2"><img src="rasm/facebook.png" alt="" width="35" height="35"></label>
+                                    <input type="text" class="form-control" id="login" placeholder="facebook">
+                                </div>
+                                <div class="form-group d-flex">
+                                    <label for="login1" class="mr-2"><img src="rasm/Telegram.webp" alt="" width="35" height="35"></label>
+                                    <input type="text" class="form-control" id="login1" placeholder="telegram">
+                                </div>
+                                <div class="form-group d-flex">
+                                    <label for="login2" class="mr-2"><img src="rasm/twitter.png" alt="" width="35" height="35"></label>
+                                    <input type="text" class="form-control" id="login2" placeholder="twitter">
+                                </div>
+                                <div class="form-group d-flex">
+                                    <label for="login3" class="mr-2"><img src="rasm/Instagram.webp" alt="" width="35" height="35"></label>
+                                    <input type="text" class="form-control" id="login3" placeholder="instagram">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="row my-3">
+        <div class="col-md-6 my-3" style="margin-left: 570px">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center dropdown-toggle" data-toggle="collapse" data-target="#myBox5">
+                    Contact settings
+                </li>
+                <div class="collapse show" id="myBox5">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="#" method="get">
+                                <div class="form-group d-flex">
+                                    <input type="checkbox" id="chek" class="mb-4">
+                                    <label for="chek"><h5>Telefon raqamni ko'rsatish</h5>Telefon raqaminigizni ko'rsatish yoki yashirish</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

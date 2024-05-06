@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="main4.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-6">
+            <h3 class="text-light text-center br">Default collapse with scaling icon</h3>
+            <button type="button" class="btn text-dark w-100 bg text-left mt-3" data-toggle="collapse" data-target="#myBox">
+                Personal information <div class="mr"><span><h5>&#8744;</h5></span></div>
+            </button>
+            <div class="mt-4 collapse m" id="myBox">
+                <div class="wrap bg-light">
+                    <div class="form-group">
+                        <form action="#" method="get">
+                            <label for="account name">Account name</label>
+                            <input type="text" id="account name" placeholder="Account name">
+                            <br>
+                            <label for="user name">User name</label>
+                            <input type="text" id="user name" placeholder="User name">
+                            <br>
+                            <label for="email adress">Email adress</label>
+                            <input type="text" id="email adress" placeholder="Email adress">
+                            <br>
+                            <label for="password">Password</label>
+                            <label for="confrim password" class="label">Confrim Password</label>
+                            <br>
+                            <input type="password" id="password" placeholder="Your password">
+                            <input type="password" id="confrim password" class="input" placeholder="Confrim password">
+                            <br>
+                            <label for="site address">Site addres</label>
+                            <input type="text" id="site address" placeholder="Your web site addres">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn text-dark  w-100 bg text-left my-3" data-toggle="collapse" data-target="#mrBox">
+                billing information <div class="mr"><span><h5>&#8744;</h5></span></div>
+            </button>
+            <div class="mt-4 collapse m" id="mrBox">
+                <div class="wrap bg-light">
+                    <div class="form-group">
+                        <form action="#" method="get">
+                            <h2>Billing information</h2>
+                            <label for="first name" >First name</label>
+                            <label for="last name" class="label">Last name</label>
+                            <br>
+                            <input type="name" id="first name"  placeholder="First name">
+                            <input type="name" id="last name" placeholder="Last name">
+                            <label for="company name">Company name</label>
+                            <input type="text" id="company name" placeholder="Company name">
+                            <label for="email adress">Email adress</label>
+                            <input type="text" id="email adress" placeholder="Email adress">
+                            <label for="age">Country</label>
+                            <select name="age" id="age">
+                                <option value="1">select One</option>
+                                <option value="2">select two</option>
+                                <option value="3">select there</option>
+                                <option value="4">select for</option>
+                                <option value="5">select fife</option>
+                            </select>
+                            <br>
+                            <label for="adres1">Adress line 1</label>
+                            <input type="text" id="adres1" placeholder="Your adress">
+                            <label for="adress2">Adress line 2</label>
+                            <input type="text" id="adress2" placeholder="Your address">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        <div class="col-md-6">
+            <h3 class="text-light text-center br">Accordion collapse with rotating icon</h3>
+            <button type="button" class="btn text-dark  w-100 mkl bg text-left mt-3 " data-toggle="collapse" data-target="#mwBox">
+                Collapse item #1 <span1>&#8744;</span1>
+            </button>
+            <div class="mt-4 collapse m bg-light" id="mwBox">
+                <table class="table">
+                <tr>
+                    <th><img src="rasm/7.jpg" height="85" width=85/></th>
+                    <th>Profil Imege</th>
+                     <h6>JPG,GIF or PNG 100x100px</h6>
+                </tr>
+                </table>
+            </div>
+            <button type="button" class="btn text-dark  w-100 bg text-left mkl my-3" data-toggle="collapse" data-target="#meBox">
+                Collapse item #2 <span1>&#8744;</span1>
+            </button>
+            <div class="mt-4 collapse m bg-light" id="meBox">
+                <form action="#" method="get">
+                    <div class="form-group d-flex">
+                        <label for="login" class="mr-2"><img src="rasm/5.jpg" alt="" width="35" height="35"></label>
+                        <input type="text" class="form-control" id="login" placeholder="facebook">
+                    </div>
+                    <div class="form-group d-flex">
+                        <label for="login1" class="mr-2"><img src="rasm/7.jpg" alt="" width="35" height="35"></label>
+                        <input type="text" class="form-control" id="login1" placeholder="telegram">
+                    </div>
+                    <div class="form-group d-flex">
+                        <label for="login2" class="mr-2"><img src="rasm/8.jpg" alt="" width="35" height="35"></label>
+                        <input type="text" class="form-control" id="login2" placeholder="twitter">
+                    </div>
+                    <div class="form-group d-flex">
+                        <label for="login3" class="mr-2"><img src="rasm/6.jpg" alt="" width="35" height="35"></label>
+                        <input type="text" class="form-control" id="login3" placeholder="instagram">
+                    </div>
+                </form>
+            </div>
+            <button type="button" class="btn text-dark w-100 bg text-left mkl" data-toggle="collapse" data-target="#m;Box">
+                Collapse item #3 <span1>&#8744;</span1>
+            </button>
+            <div class="mt-4 collapse m" id="m;Box">
+                <p class="bg-light">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam consequuntur illo
+                    iusto mollitia nam quibusdam saepe sint totam veniam! Adipisci architecto consectetur dolor nulla
+                    pariatur repellat velit veritatis voluptas!
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/src/popover.js"></script>
+</body>
+</html>
